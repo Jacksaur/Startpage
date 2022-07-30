@@ -11,7 +11,7 @@ function random_image(){
     array_index = Math.floor(Math.random() * images.length)
 
     // Change the --img variable based on the random index
-    style_root.style.setProperty('--background_image', `url(images/pictures/${images[array_index]})`)
+    style_root.style.setProperty('--background_image', `url(static/${images[array_index]})`)
 }
 
 random_image()

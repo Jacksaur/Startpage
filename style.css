@@ -6,7 +6,7 @@
     --text-nord: #F67129;
     --text-milk: #D9D9D9;
     --ctg: 4;
-    --background_image: url(image.jpg);
+	--background_image: url(image.jpg);
 }
 
 html,
@@ -52,6 +52,7 @@ img {
     border: 2px solid var(--text-nord);
     margin-bottom: 20px;
     padding: 5px;
+	content: var(--background_image);
 }
 
 nav {
@@ -112,19 +113,6 @@ label {
 
 form {
     text-align: center;
-}
-
-#bangs {
-    position: absolute;
-    left: 900px;
-    top: 0px;
-    width: 400px;
-    font-size: smaller;
-    display: flex;
-}
-
-#bangs li {
-    margin-right: 20px;
 }
 
 a:focus {
